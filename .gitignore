@@ -127,3 +127,17 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data
+data/*
+
+# output
+output/*
+
+# task1
+task1/baseline/uie-char-small/*
+
+submit*.txt
+
+# git
+.git/*
