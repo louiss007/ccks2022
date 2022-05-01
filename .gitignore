@@ -139,5 +139,8 @@ task1/baseline/uie-char-small/*
 
 submit*.txt
 
+# idea
+.idea/*
+
 # git
 .git/*
