@@ -20,8 +20,8 @@ python run_seq2struct.py                              \
   --record_schema=../../output/task1/duuie/record.schema         \
   --per_device_train_batch_size=8                     \
   --per_device_eval_batch_size=256                     \
-  --output_dir=../../output/task1/duuie_multi_task_b32_lr5e-4      \
-  --logging_dir=../../output/task1/duuie_multi_task_b32_lr5e-4_log \
+  --output_dir=../../output/task1/duuie_multi_task_b8_lr5e-4      \
+  --logging_dir=../../output/task1/duuie_multi_task_b8_lr5e-4_log \
   --learning_rate=5e-4                                 \
   --seed=42                                            \
   --overwrite_output_dir                               \
