@@ -129,18 +129,21 @@ dmypy.json
 .pyre/
 
 # data
-data/*
+DuUIE/data/*
 
 # output
-output/*
+DuUIE/output/*
 
-# task1
-task1/baseline/uie-char-small/*
+# duuie pre model
+DuUIE/uie-char-small/*
 
-submit*.txt
+DuUIE/submit*.txt
 
 # idea
 .idea/*
 
 # git
 .git/*
+
+# UIE
+UIE/*

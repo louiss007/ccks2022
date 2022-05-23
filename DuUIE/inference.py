@@ -92,11 +92,11 @@ def main():
         '--model', '-m', required=True, help='Trained model for inference')
     parser.add_argument(
         '--max_source_length',
-        default=192,
+        default=384,
         type=int,
         help='Max source length for inference, ssi + text')
     parser.add_argument('--max_target_length', default=192, type=int)
-    parser.add_argument('--batch_size', default=256, type=int)
+    parser.add_argument('--batch_size', default=512, type=int)
     parser.add_argument(
         '-c',
         '--config',
